@@ -25,3 +25,13 @@ def funkcja_z_if(litera):
     else:
         print('zupełnie nie znam tej literki...',literka)
         
+# Efekt działania powyższej funkcji w Ipython QT Console
+# funkcja_z_if('a')
+# a..
+
+# funkcja_z_if('x')
+# zupełnie nie znam tej literki... x
+
+# funkcja_z_if('B')
+# b...
+
