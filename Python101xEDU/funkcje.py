@@ -13,3 +13,15 @@ def nazwa2(a,b):
     zwraca sumę a+b
     '''
     return a+b
+
+def funkcja_z_if(litera):
+    literka = litera.lower()
+    if literka=='a':
+        print('a..')
+    elif literka=='b':
+        print('b...')
+    elif literka=='c':
+        print('c...')
+    else:
+        print('zupełnie nie znam tej literki...',literka)
+        
