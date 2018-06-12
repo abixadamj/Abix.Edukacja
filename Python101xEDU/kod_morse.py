@@ -3,7 +3,7 @@
 #
 #  kod_morse.py
 #  
-#  Copyright 2018 ABIX Edukacja <adasiek@abix-edukacja>
+#  Copyright 2018 ABIX Edukacja <adasiek@abixedukacja.eu>
 #  
 
 from pyfirmata import *
@@ -53,4 +53,4 @@ for litera in napis:
 	znaczek = morse[litera]
 	print('Litera ' + litera + ' => ' + znaczek)
 	for kod in znaczek:
-		swiec(plytka, 8, kod)
+		swiec(plytka, 13, kod)
