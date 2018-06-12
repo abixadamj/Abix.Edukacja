@@ -3,7 +3,7 @@
 #
 #  kod_morse.py
 #  
-#  Copyright 2018 ABIX Edukacja <adasiek@abix-edukacja>
+#  Copyright 2018 ABIX Edukacja <adasiek@abixedukacja.eu>
 #  
 
 from pyfirmata import *
@@ -12,13 +12,9 @@ from time import sleep
 #definicja kodu
 
 morse = { 'a' : '.-' , 'b' : '-...' , 'c' : '.-.-' , 'd' : '-..' , 
-		  'e' : '.' , 'f' : '..-.', 'g' : '--.' , 'h' : '....' ,
-		  'i' : '.' , 'j' : '..-.', 'k' : '--.' , 'l' : '..--' ,
-		  'e' : '.-' , 'f' : '..-.', 'g' : '--.' , 'h' : '....' ,
-		  'e' : '.' , 'f' : '..-.', 'g' : '--.' , 'h' : '....' ,
-		  'e' : '.' , 'f' : '..-.', 'g' : '--.' , 'h' : '....' ,
-		  'e' : '.' , 'f' : '..-.', 'g' : '--.' , 'h' : '....' ,
-			  }
+        'e' : '.' , 'f' : '..-.', 'g' : '--.' , 'h' : '....' ,
+	'i' : '.' , 'j' : '..-.', 'k' : '--.' , 'l' : '..--' ,
+	 }
 		   
 
 '''
